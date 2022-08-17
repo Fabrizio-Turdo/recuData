@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["src/sass/_grid.scss","src/sass/_header.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;AACA;EACI;EACA;;AACA;EACI;;AAIR;EACI;EACA;EACA;;AACA;EACI;;;ACjBZ;EACI;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["src/sass/_grid.scss","src/sass/_header.scss","src/sass/_particles.scss","src/sass/_body.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;AAUA;EACI;EACA;EACA;;AACA;EACI;;;ACjBZ;EACI;EACA;;;ACFJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;ACRJ;EACI","file":"style.css"}
