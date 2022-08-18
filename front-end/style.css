@@ -2,12 +2,19 @@
   display: grid;
   grid-template-rows: auto auto;
 }
+.grid .card1 {
+  display: flex;
+}
+.grid .card1 img {
+  width: 50%;
+}
 .grid .card {
   margin: 2rem;
   display: grid;
   grid-template-columns: auto auto;
+  align-items: center;
 }
-.grid .card .img {
+.grid .card img {
   width: 100%;
 }
 
@@ -29,6 +36,23 @@
 
 body {
   position: relative;
+}
+
+h1 {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.inicio div {
+  display: flex;
+  justify-content: center;
+}
+.inicio .img-inicio {
+  width: 30%;
+  position: absolute;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,12 +10,24 @@
     //     }
 
     // }
+        .card1{
+            display: flex;
+      
+           img{
+                width: 50%;
+            }
+        }
+
     .card{
         margin: 2rem;
         display: grid;
         grid-template-columns: auto auto;
-        .img{
-            width: 100%;
-        }
+        align-items: center;
+        
+            
+            img{
+                width: 100%;
+            }
+        
     }
 }
