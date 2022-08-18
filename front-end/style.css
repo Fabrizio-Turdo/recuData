@@ -22,6 +22,9 @@
   display: flex;
   background-color: #03B6E8;
 }
+.header img {
+  width: 20%;
+}
 
 #particles-js {
   width: 100%;
