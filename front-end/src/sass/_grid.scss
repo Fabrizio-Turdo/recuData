@@ -1,6 +1,6 @@
 .grid{
-    display: grid;
-    grid-template-rows: auto auto;
+    // display: grid;
+    // grid-template-rows: auto auto;
     // grid-template-columns: auto auto;
     // .card1{
     //     display: grid;
@@ -12,7 +12,6 @@
     // }
         .card1{
             display: flex;
-      
            img{
                 width: 50%;
             }
@@ -30,4 +29,12 @@
             }
         
     }
+
+}
+.animationLeft {
+    animation: SlideInLeft 2s ease 1.5s 1 normal backwards;
+
+}
+.animationRight{
+    animation: SlideInRight 2s ease 1s 1 normal backwards;
 }
