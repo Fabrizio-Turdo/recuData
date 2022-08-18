@@ -5,6 +5,9 @@ h1{
     padding: 2rem;
 }
 .inicio{
+    h1{
+        position: absolute;
+    }
     div{
         display: flex;
         justify-content: center;
@@ -12,6 +15,6 @@ h1{
     .img-inicio{
         width:30%;
         position: absolute;
-        opacity: 0.8;
+        opacity: 1;
     }
 }
