@@ -1,0 +1,19 @@
+.js-scroll{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.js-scroll.scrolled {
+    opacity: 1;
+    animation: SlideInLeft 2s ease 0s 1 normal backwards;
+
+    
+} 
+.js-scroll-r{
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.js-scroll-r.scrolled{
+    opacity: 1;
+    animation: SlideInRight 2s ease 0s 1 normal backwards;
+}

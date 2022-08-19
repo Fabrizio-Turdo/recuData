@@ -14,14 +14,6 @@
   width: 100%;
 }
 
-.animationLeft {
-  animation: SlideInLeft 2s ease 1.5s 1 normal backwards;
-}
-
-.animationRight {
-  animation: SlideInRight 2s ease 1s 1 normal backwards;
-}
-
 .header {
   display: flex;
   background-color: #03B6E8;
@@ -84,6 +76,25 @@ h1 {
     opacity: 1;
     transform: translateX(0);
   }
+}
+.js-scroll {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+  animation: SlideInLeft 2s ease 1s 1 normal backwards;
+}
+
+.js-scroll-r {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.js-scroll-r.scrolled {
+  opacity: 1;
+  animation: SlideInRight 2s ease 0s 1 normal backwards;
 }
 
 /*# sourceMappingURL=style.css.map */
