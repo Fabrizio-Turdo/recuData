@@ -1,16 +1,26 @@
 .grid .card1 {
-  display: flex;
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-items: end;
 }
-.grid .card1 img {
+.grid .card1 .div-img {
   width: 50%;
 }
-.grid .card {
+.grid .card1 .div-img img {
+  width: 100%;
+}
+.grid .card2 {
   margin: 2rem;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
 }
-.grid .card img {
+.grid .card2 .div-img {
+  width: 50%;
+}
+.grid .card2 .div-img img {
   width: 100%;
 }
 
@@ -96,8 +106,8 @@ h1 {
 }
 
 .js-scroll.scrolled {
-  opacity: 1;
-  animation: SlideInLeft 2s ease 0s 1 normal backwards;
+  opacity: 2;
+  animation: SlideInLeft 2s;
 }
 
 .js-scroll-r {
@@ -108,6 +118,56 @@ h1 {
 .js-scroll-r.scrolled {
   opacity: 1;
   animation: SlideInRight 2s ease 0s 1 normal backwards;
+}
+
+.scrollRight {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.scrollRight.scrolled {
+  opacity: 1;
+  animation: SlideInRight 2s ease 0s 1 normal backwards;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  color: #000;
+}
+footer .footer-grid {
+  background-color: green;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+footer a {
+  text-decoration: none;
+}
+footer a img {
+  width: 5%;
+}
+footer .redes {
+  display: flex;
+  justify-content: center;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */

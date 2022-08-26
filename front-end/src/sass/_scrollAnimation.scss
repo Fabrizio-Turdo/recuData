@@ -3,8 +3,8 @@
     transition: opacity 1s;
 }
 .js-scroll.scrolled {
-    opacity: 1;
-    animation: SlideInLeft 2s ease 0s 1 normal backwards;
+    opacity: 2;
+    animation: SlideInLeft 2s   ;
 
     
 } 
@@ -18,5 +18,12 @@
     animation: SlideInRight 2s ease 0s 1 normal backwards;
 }
 
-
+.scrollRight{
+    opacity: 0;
+    transition: opacity 1s;
+}
+.scrollRight.scrolled{
+    opacity: 1;
+    animation: SlideInRight 2s ease 0s 1 normal backwards;
+}
 

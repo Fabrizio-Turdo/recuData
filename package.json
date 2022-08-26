@@ -10,6 +10,7 @@
   "author": "Fabrizio Marcelo Turdo",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "particles.js": "^2.0.0",
     "sass": "^1.54.4"
   }

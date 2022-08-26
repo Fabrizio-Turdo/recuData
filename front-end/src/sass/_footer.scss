@@ -1,0 +1,24 @@
+footer {
+    h3 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        color: #000;
+    }
+    .footer-grid {
+        background-color: green;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    a {
+        text-decoration: none;
+        img {
+            width: 5%;
+        }
+    }
+    .redes {
+        display: flex;
+        justify-content: center;
+    }
+  
+}
