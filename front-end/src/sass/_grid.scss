@@ -17,24 +17,6 @@
             }
         }
 
-    .card{
-        margin: 2rem;
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        
-            
-            img{
-                width: 100%;
-            }
-        
-    }
 
 }
-.animationLeft {
-    animation: SlideInLeft 2s ease 1.5s 1 normal backwards;
 
-}
-.animationRight{
-    animation: SlideInRight 2s ease 1s 1 normal backwards;
-}
