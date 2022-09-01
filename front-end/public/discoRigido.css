@@ -1,0 +1,14 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.discoRigido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.discoRigido img {
+  width: 35%;
+}
+
+/*# sourceMappingURL=discoRigido.css.map */
