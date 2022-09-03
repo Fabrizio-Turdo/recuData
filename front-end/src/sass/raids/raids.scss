@@ -10,12 +10,12 @@ body{
     margin-top: 2%;
 }
 
-.discoSolido{
+.raids{
     display: flex;
     flex-direction: column;
     align-items: center;
     h3{
-        margin-top: 0;
+        color: green;
     }
     .imagen{
         width: 100%;
@@ -23,11 +23,12 @@ body{
             width: 100%;
         }
     }
-    .contendor{
+    .contenedor{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .parrafo{
+        text-align: justify;
+    }
 }
-
-
