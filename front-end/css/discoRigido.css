@@ -21,6 +21,9 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.discoRigido .contenedor p {
+  text-align: justify;
+}
 .discoRigido .sub-titulo {
   color: green;
 }

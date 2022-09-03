@@ -22,10 +22,13 @@ body {
 .discoSolido .imagen img {
   width: 100%;
 }
-.discoSolido .contendor {
+.discoSolido .contenedor {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.discoSolido .contenedor .text {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=discoSolido.css.map */

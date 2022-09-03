@@ -27,5 +27,8 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.memorias .contenedor p {
+  text-align: justify;
+}
 
 /*# sourceMappingURL=memoria.css.map */

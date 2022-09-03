@@ -23,10 +23,13 @@ body{
             width: 100%;
         }
     }
-    .contendor{
+    .contenedor{
         display: flex;
         align-items: center;
         flex-direction: column;
+        .text{
+            text-align: justify;
+        }
     }
 }
 
