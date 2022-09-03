@@ -7,8 +7,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    .contenedor{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sub-titulo{
+        color: green;
+    }
 
-  img{
-    width: 35%;
+  .imagen{
+    width: 50%;
+    img{
+        width: 100%;
+    }
   }
 }

@@ -7,8 +7,19 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.discoRigido img {
-  width: 35%;
+.discoRigido .contenedor {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.discoRigido .sub-titulo {
+  color: green;
+}
+.discoRigido .imagen {
+  width: 50%;
+}
+.discoRigido .imagen img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=discoRigido.css.map */
