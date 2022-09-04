@@ -13,9 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.raids h3 {
-  color: green;
-}
+
 .raids .imagen {
   width: 100%;
 }
