@@ -103,6 +103,10 @@ img {
   flex-direction: column;
   padding: 1rem;
 }
+.card__content .click {
+  text-decoration: none;
+  color: black;
+}
 
 .card__image {
   background-position: center center;
@@ -139,6 +143,7 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

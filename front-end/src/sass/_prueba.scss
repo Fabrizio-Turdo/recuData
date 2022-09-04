@@ -81,6 +81,10 @@ img {
   flex: 1 1 auto;
   flex-direction: column;
   padding: 1rem;
+  .click{
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .card__image {
@@ -135,5 +139,6 @@ img {
   font-size: 0.875rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+  text-align: justify;
 }
 
