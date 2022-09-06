@@ -152,22 +152,24 @@ img {
 
 .contactanos {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto 25% 40%;
+  grid-template-rows: auto;
+  margin: 5%;
 }
-.contactanos h1 {
+.contactanos .div h1 {
   width: 50%;
-}
-.contactanos .div {
-  display: flex;
-  justify-content: space-between;
 }
 .contactanos .div p {
   text-align: justify;
   margin: 10%;
   line-height: 200%;
 }
-.contactanos .div .imgContact {
-  width: 40%;
+.contactanos .divImg {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.contactanos .divImg .imgContact {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
