@@ -1,5 +1,13 @@
 .contactanos{
+    display: grid;
+    grid-template-columns: auto ;
+    h1{
+        width: 50%;
+    }
+   
+   .div{
     display: flex;
+    justify-content: space-between;
     p{
         text-align: justify;
         margin: 10%;
@@ -7,6 +15,8 @@
     }
 
     .imgContact{
-        width: 50%;
+        width: 40%;
     }
+
+   }
 }

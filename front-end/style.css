@@ -151,15 +151,23 @@ img {
 }
 
 .contactanos {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto;
 }
-.contactanos p {
+.contactanos h1 {
+  width: 50%;
+}
+.contactanos .div {
+  display: flex;
+  justify-content: space-between;
+}
+.contactanos .div p {
   text-align: justify;
   margin: 10%;
   line-height: 200%;
 }
-.contactanos .imgContact {
-  width: 50%;
+.contactanos .div .imgContact {
+  width: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */
