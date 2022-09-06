@@ -4,8 +4,7 @@ body {
   font-family: "Amatic SC", cursive;
   font-family: "Dosis", sans-serif;
   font-size: x-large;
-  margin: 5%;
-  margin-top: 2%;
+  margin: 0;
 }
 
 .raids {
@@ -13,7 +12,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 .raids .imagen {
   width: 100%;
 }
@@ -27,6 +25,8 @@ body {
 }
 .raids .parrafo {
   text-align: justify;
+  line-height: 200%;
+  margin: 5%;
 }
 
 /*# sourceMappingURL=raids.css.map */
