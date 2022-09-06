@@ -152,7 +152,7 @@ img {
 
 .contactanos {
   display: grid;
-  grid-template-columns: auto 25% 40%;
+  grid-template-columns: auto 25% 50%;
   grid-template-rows: auto;
   margin: 5%;
 }
