@@ -37,10 +37,14 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
-  padding: 1rem;
+  margin: 0;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.sectionCards {
+  margin: 5%;
 }
 
 img {
@@ -144,6 +148,18 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   text-align: justify;
+}
+
+.contactanos {
+  display: flex;
+}
+.contactanos p {
+  text-align: justify;
+  margin: 10%;
+  line-height: 200%;
+}
+.contactanos .imgContact {
+  width: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
