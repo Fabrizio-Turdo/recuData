@@ -5,9 +5,6 @@
     margin: 5%;
 
    .div{
-    h1{
-        width: 50%;
-    }
     p{
         text-align: justify;
         margin: 10%;
@@ -20,5 +17,12 @@
         .imgContact{
             width: 100%;
         }
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .contactanos{
+        display: flex;
+        flex-direction: column;
     }
 }
