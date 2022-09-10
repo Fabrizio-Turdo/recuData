@@ -33,4 +33,14 @@ body {
   width: 100%;
 }
 
+.back{
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  z-index:100;
+}
+
+
 /*# sourceMappingURL=discoRigido.css.map */
