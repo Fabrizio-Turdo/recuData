@@ -1,9 +1,10 @@
 @media only screen and (max-width: 700px){
+   
+   //index.html
     .contactanos{
         display: flex;
         flex-direction: column;
     }
-
     .presentacion{
         height: 70vh;
         .inicio{
@@ -20,4 +21,7 @@
         }
 
     }
+    //fin querys index.html
+
+    
 }

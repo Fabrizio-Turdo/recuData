@@ -31,5 +31,13 @@ body {
   line-height: 200%;
   margin: 5%;
 }
+.back{
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  z-index:100;
+}
 
 /*# sourceMappingURL=discoSolido.css.map */
