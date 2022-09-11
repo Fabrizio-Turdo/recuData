@@ -37,4 +37,10 @@ body {
   z-index:100;
 }
 
+@media only screen and (max-width: 700px) {
+  .contenedor .parrafo {
+    font-size: 70%;
+  }
+}
+
 /*# sourceMappingURL=raids.css.map */
