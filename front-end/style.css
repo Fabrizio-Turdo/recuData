@@ -176,10 +176,10 @@ img {
   }
 
   .presentacion {
-    height: 70vh;
+    height: 100vh;
   }
   .presentacion .inicio {
-    height: 70%;
+    height: 100%;
   }
   .presentacion .inicio .img-inicio {
     height: 100%;
@@ -189,6 +189,10 @@ img {
   }
   .presentacion .inicio2 .img-inicio2 {
     height: 100%;
+  }
+
+  .ocultar-div {
+    display: none;
   }
 }
 
