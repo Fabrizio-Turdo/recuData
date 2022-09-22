@@ -152,7 +152,7 @@ img {
 
 .contactanos {
   display: grid;
-  grid-template-columns: auto 25% 50%;
+  grid-template-columns: auto 25% 48%;
   grid-template-rows: auto;
   margin: 5%;
 }
@@ -169,14 +169,14 @@ img {
   width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .contactanos {
     display: flex;
     flex-direction: column;
   }
 
   .presentacion {
-    height: 100vh;
+    height: 80vh;
   }
   .presentacion .inicio {
     height: 100%;
