@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.discoRigido h3 {
+.discoRigido h4 {
   margin-top: 0;
   text-transform: uppercase;
 }
@@ -31,7 +31,6 @@ body {
 .discoRigido .imagen img {
   width: 100%;
 }
-
 .back{
   position:fixed;
 	width:60px;
@@ -40,11 +39,4 @@ body {
 	right:40px;
   z-index:100;
 }
-
-@media only screen and (max-width: 700px) {
-  .contenedor .text li{
-    font-size: 70%;
-  }
-}
-
 /*# sourceMappingURL=discoRigido.css.map */
