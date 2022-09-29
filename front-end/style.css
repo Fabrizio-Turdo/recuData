@@ -26,7 +26,7 @@ h1 {
   justify-content: center;
   padding: 2rem;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.9rem;
 }
 
 .inicio .img-inicio {
@@ -172,7 +172,6 @@ img {
 }
 .contactanos .titulo{
   color: #1E294D;
-  font-size: 2.9rem;
 }
 
 .contactanos .div{
