@@ -214,6 +214,13 @@ img {
   .presentacion .inicio2 .img-inicio2 {
     height: 100%;
   }
+  .contactanos .div .titulo{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+  }
+  .contactanos .div .fuente{
+    font-size: 1em;
+  }
 
   .ocultar-div {
     display: none;
