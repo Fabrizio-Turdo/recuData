@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .fuente{
   font-family: 'Raleway';
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: x-large;
+
 }
 
 
@@ -45,9 +47,9 @@ body {
   font-weight: 400;
   letter-spacing: 0;
   margin: 0;
-  text-rendering: optimizeLegibility;
+  /* text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 .sectionCards {
