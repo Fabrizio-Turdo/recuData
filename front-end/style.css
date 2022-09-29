@@ -2,9 +2,11 @@
 .fuente{
   font-family: 'Raleway';
   font-size: x-large;
+}
+.contactanos .fuente{
+  color: #727272;
 
 }
-
 
 .header {
   display: flex;
@@ -143,7 +145,7 @@ img {
 }
 
 .card__title {
-  color: gray-dark;
+  color: #1E294D;
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -151,6 +153,7 @@ img {
   font-family: 'Raleway';
 }
 .card__text {
+  color: #727272;
   flex: 1 1 auto;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -165,6 +168,10 @@ img {
   grid-template-rows: auto;
   margin: 5%;
 }
+.contactanos .titulo{
+  color: #1E294D;
+}
+
 .contactanos .div{
   display: flex;
   flex-direction: column;
