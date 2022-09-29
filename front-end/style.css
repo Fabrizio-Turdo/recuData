@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 .fuente{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-size: 1.5rem;
 }
 
@@ -40,7 +40,7 @@ html {
 
 body {
   color: gray;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0;
@@ -147,7 +147,7 @@ img {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
 }
 .card__text {
   flex: 1 1 auto;
@@ -155,7 +155,7 @@ img {
   line-height: 1.5;
   margin-bottom: 1.25rem;
   text-align: justify;
-  font-family: 'Raleway', sans-serif
+  font-family: 'Raleway';
 }
 
 .contactanos {
