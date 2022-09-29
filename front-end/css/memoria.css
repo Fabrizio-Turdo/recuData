@@ -45,7 +45,7 @@ body {
 }
 
 @media only screen and (max-width: 700px) {
-  .contenedor .text li{
+  .contenedor .text{
     font-size: 70%;
   }
 }
