@@ -7,6 +7,9 @@ body {
 }
 h4{
   text-transform: uppercase;
+  font-size: 2rem;
+  color: #1E294D;
+
 
 }
 .raids {
@@ -28,9 +31,10 @@ h4{
 
 }
 .raids .parrafo {
-  text-align: justify;
-  line-height: 200%;
+  line-height: 150%;
   margin: 5%;
+  color: #727272;
+
 }
 .back{
   position:fixed;

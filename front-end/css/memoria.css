@@ -14,6 +14,8 @@ body {
 .memorias h4 {
   text-transform: uppercase;
   margin-top: 0;
+  color: #1E294D;
+
 }
 .memorias .imagen {
   width: 100%;
@@ -29,8 +31,8 @@ body {
 
 }
 .memorias .contenedor p {
-  text-align: justify;
-  line-height: 200%;
+  line-height: 150%;
+  color: #727272;
   margin: 5%;
 }
 .back{
