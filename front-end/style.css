@@ -5,6 +5,10 @@
 }
 .contactanos .fuente{
   color: #727272;
+  text-align: justify;
+  margin:0 10%;
+  line-height: 200%;
+  font-size: 2em;
 
 }
 
@@ -179,18 +183,34 @@ img {
   flex-direction: column;
   margin-top: 10%;
 }
-.contactanos .div p {
-  text-align: justify;
-  margin:0 10%;
-  line-height: 200%;
-  font-size: 2em;
-}
+
 .contactanos .divImg {
   grid-column-start: 3;
   grid-row-start: 1;
 }
 .contactanos .divImg .imgContact {
   width: 100%;
+}
+
+.footer-grid{
+  display: flex;
+  justify-content: flex-end;
+  background-color:    #1E294D;
+  ;
+}
+.footer-grid a {
+  text-decoration: none;
+}
+.footer-grid a img {
+  width: 100%;
+}
+.margin{
+  margin-right: 10%;
+
+}
+.footer-grid .redes {
+  display: flex;
+  width: 3%;
 }
 
 @media only screen and (max-width: 768px) {
