@@ -211,6 +211,7 @@ img {
 }
 .footer-grid .redes {
   display: flex;
+  width: 3%;
 }
 
 
@@ -299,7 +300,7 @@ html, body {
 }
 
 .img-nav {
-  width: 30%;
+  width: 7%;
 }
 
 .menu > li {
