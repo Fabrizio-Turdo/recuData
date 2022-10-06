@@ -248,6 +248,11 @@ img {
   .ocultar-div {
     display: none;
   }
+
+  .footer-grid{
+    width: 100%;
+    height: 10vh;
+  }
 }
 html, body {
   margin: 0;
