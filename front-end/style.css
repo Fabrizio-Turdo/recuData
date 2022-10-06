@@ -404,4 +404,27 @@ html, body {
   }
 }
 
+
+
+
+@media (max-width: 700px) {
+.img-nav{
+  width: 25%;
+}
+.footer-grid{
+  height: 5rem;
+}
+.footer-grid .margin{
+  margin-right: 7em;
+}
+.footer-grid .redes{
+  width: auto;
+}
+
+
+
+
+
+}
+
 /*# sourceMappingURL=style.css.map */
