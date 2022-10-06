@@ -211,7 +211,6 @@ img {
 }
 .footer-grid .redes {
   display: flex;
-  width: 3%;
 }
 
 
@@ -265,10 +264,7 @@ html, body {
   justify-content: flex-end;
   background-color: rgb(30,41,77);
 }
-.footer-grid .redes{
-  display: flex;
-  width: 3%;
-}
+
 .margin{
   margin-right: 10%;
 }
@@ -303,7 +299,7 @@ html, body {
 }
 
 .img-nav {
-  width: 10%;
+  width: 30%;
 }
 
 .menu > li {
