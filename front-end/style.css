@@ -235,15 +235,13 @@ img {
   .presentacion .inicio {
     height: 100%;
   }
-  .presentacion .inicio .img-inicio {
-    height: 100%;
-  }
-  .presentacion .inicio2 {
-    height: 30%;
-  }
-  .presentacion .inicio2 .img-inicio2 {
-    height: 100%;
-  }
+  /* .presentacion .inicio .img-inicio {
+    /* height: 100%; */
+  } */
+ 
+/* .inicio{
+    width: 120%;
+  } */
 
   .ocultar-div {
     display: none;
@@ -253,7 +251,7 @@ img {
     width: 100%;
     height: 10vh;
   }
-}
+
 html, body {
   margin: 0;
   height: 100%;
