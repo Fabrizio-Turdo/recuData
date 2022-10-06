@@ -15,15 +15,38 @@
     <link rel="icon" href="./front-end/src/img/logo.png">
 </head>
 <body >
-    <header>
-        <nav>
+    <section class="ocultar-mobile top-nav ">
+        <div>
+            <img class="img-nav" src="./front-end/src/img/logo.png" alt="">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li><a class="list-menu" href="index.html">Inicio</a></li>
+            <li><a class="list-menu" href="#cards">Servicios</a></li>
+            <li><a class="list-menu" href="#Contactanos">Contactanos</a></li>
+        </ul>
+    </section>
+
+
+
+
+    <!-- <header class="ocultar-nav">
+
+        <nav> 
+            <div>
+                <img src="./front-end/src/img/logo.png" alt="">
+            </div>
+
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="#cards">Servicios</a></li>
                 <li><a href="#Contactanos">Contactanos</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
     <!-- Presentacion -->
     <section class="presentacion">
         <div class="inicio">
@@ -110,7 +133,7 @@
 
     <section class="contactanos" id="Contactanos">
         <div class="div">
-            <h1 class="titulo">¿Como contactarnos?</h1>
+            <h1 class="titulo">¿Cómo contactarnos?</h1>
                 <ol class="fuente">
 
                     <li value="1"> Nos contactas por WhatsApp. </li> 
@@ -134,7 +157,7 @@
                 <a class="redes " href="https://instagram.com/datarecoveryar?igshid=YmMyMTA2M2Y=" target="_blanck">
                     <img src="./front-end/src/img/NUEVAS/Footer/Instagram.png" alt="logo de instagram">
                 </a>
-                <a class="redes margin" href="" target="_blanck">
+                <a class="redes margin" href="soporte@datarecovery.ar" target="_blanck">
                     <img src="./front-end/src/img/NUEVAS/Footer/Email.png" alt="logo de email">
                 </a>
                 </div>
