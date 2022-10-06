@@ -366,11 +366,12 @@ html, body {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 6em;
+    margin-left: 40%;
     left: 0;
     flex-direction: column;
-    width: 100%;
-    justify-content: center;
+    width: 50%;
+    justify-content: flex-end;
     align-items: center;
   }
 
@@ -418,7 +419,7 @@ html, body {
   margin-right: 7em;
 }
 .footer-grid .redes{
-  width: auto;
+  width: 15%;
 }
 
 
