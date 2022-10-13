@@ -159,22 +159,19 @@ img {
   grid-template-rows: auto;
   margin: 5%;
 }
-.contactanos .titulo{
+.contactanos .div .titulo{
   color: #1E294D;
-  font-size: 1.25rem;
+  font-size: 2.99rem;
   text-transform: uppercase;
 }
-.fuente{
+
+.contactanos .div .fuente{
   font-family: 'Raleway';
-  font-size: x-large;
-}
-.contactanos .fuente{
   color: #727272;
   text-align: justify;
   margin:0 10%;
   line-height: 200%;
-  font-size: 1em;
-
+  font-size: 1.99rem;
 }
 
 
@@ -228,6 +225,20 @@ img {
   .contactanos {
     display: flex;
     flex-direction: column;
+  }
+  .contactanos .div .titulo{
+    color: #1E294D;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .contactanos .div .fuente{
+    font-family: 'Raleway';
+    color: #727272;
+    text-align: justify;
+    margin:0 10%;
+    line-height: 200%;
+    font-size: 1rem;
   }
 
   .presentacion {

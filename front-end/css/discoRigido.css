@@ -34,6 +34,11 @@ body {
   line-height: 150%;
   margin: 5%;
 }
+.discoRigido .contenedor ul{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
 .discoRigido .imagen {
   width: 100%;
 }
@@ -51,6 +56,9 @@ body {
 @media only screen and (max-width: 700px) {
   .contenedor .text {
     font-size: 70%;
+  }
+  .contenedor ul{
+    font-size: 60%;
   }
 }
 /*# sourceMappingURL=discoRigido.css.map */
